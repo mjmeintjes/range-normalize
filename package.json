@@ -33,7 +33,7 @@
   "dependencies": {
     "debug": "2",
     "index-of": "0.1.0",
-    "void-elements": "1"
+    "void-elements": "3"
   },
   "devDependencies": {
     "zuul": "2"
