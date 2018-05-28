@@ -7,10 +7,7 @@ var indexOf = require('index-of');
 var debug = require('debug')('range-normalize');
 
 // map to an Object for faster lookup times
-var voidElements = require('void-elements').reduce(function (obj, name) {
-  obj[name.toUpperCase()] = true;
-  return obj;
-}, {});
+var voidElements = require('void-elements');
 
 /**
  * Module exports.
